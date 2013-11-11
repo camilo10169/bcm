@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    <link rel="stylesheet" href="css/jquery-mobile.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/index.css" /> -->
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Business Canvas Model</title>
+  </head>
+  <body>
+    <div data-role="page">
+      <div id="menu" data-role="panel" data-position="left" data-display="push">
+        <h2>Menú</h2>
+        <ul data-role="listview">
+          <li><a href="project.html" rel="external">Tipo de proyecto</a></li>
+          <li><a href="proposition.html" rel="external">Propuesta de valor</a></li>
+          <li><a href="segment.html" rel="external">Segmento de clientes</a></li>
+          <li><a href="canvas.html" rel="external">Canvas</a></li>
+          <li><a href="relationship.html" rel="external">Relación con los clientes</a></li>
+          <li><a href="channel.html" rel="external">Canales de distribución</a></li>
+        </ul>
+      </div>
+
+      <div data-role="header" data-position="fixed">
+        <h1>Business Canvas Model</h1>
+        <a href="#menu">Menú</a>
+      </div>
+      <div data-role="content">
+        <div class="ui-grid-a">
+          <div class="ui-block-a">
+            <h2>Descripción</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, laborum, dolorum, in voluptatem quia delectus a accusantium et quas nihil ipsum cum nostrum quos quo velit placeat obcaecati tempora cumque.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, laborum, dolorum, in voluptatem quia delectus a accusantium et quas nihil ipsum cum nostrum quos quo velit placeat obcaecati tempora cumque.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, laborum, dolorum, in voluptatem quia delectus a accusantium et quas nihil ipsum cum nostrum quos quo velit placeat obcaecati tempora cumque.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, laborum, dolorum, in voluptatem quia delectus a accusantium et quas nihil ipsum cum nostrum quos quo velit placeat obcaecati tempora cumque.
+            </p>
+          </div>
+          <div class="ui-block-b">
+            <img id="img_bcm" src="img/bcm.png" alt="Business Canvas Model">
+          </div>
+        </div>
+
+        <a id="continue" href="project.html" data-role="button" data-theme="a" rel="external">Continuar</a>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript">
+      app.initialize();
+    </script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-mobile.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

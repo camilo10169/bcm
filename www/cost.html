@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    <link rel="stylesheet" href="css/jquery-mobile.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Business Canvas Model</title>  </head>
+  <body>
+    <div data-role="page">
+      <div id="menu" data-role="panel" data-position="left" data-display="push">
+        <h2>Menú</h2>
+        <ul data-role="listview">
+          <li><a href="project.html" rel="external">Tipo de proyecto</a></li>
+          <li><a href="proposition.html" rel="external">Propuesta de valor</a></li>
+          <li><a href="segment.html" rel="external">Segmento de clientes</a></li>
+          <li><a href="canvas.html" rel="external">Canvas</a></li>
+          <li><a href="relationship.html" rel="external">Relación con los clientes</a></li>
+          <li><a href="channel.html" rel="external">Canales de distribución</a></li>
+        </ul>
+      </div>
+      
+      <div data-role="header" data-position="fixed">
+        <h1>Estructura de costos</h1>
+        <a href="#menu">Menú</a>
+      </div>
+      <div data-role="content">
+        <table data-role="table" id="cost" data-mode="toggle" class="ui-responsive">
+          <thead>
+            <tr>
+              <th>Concepto</th>
+              <th>Cantidad</th>
+              <th>Valor</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><a href="http://en.wikipedia.org/wiki/Citizen_Kane" data-rel="external">Citizen Kane</a></td>
+              <td>1941</td>
+              <td>100%</td>
+            </tr>
+            <tr>
+              <td><a href="http://en.wikipedia.org/wiki/Casablanca_(film)" data-rel="external">Casablanca</a></td>
+              <td>1942</td>
+              <td>97%</td>
+            </tr>
+            <tr>
+              <td><a href="http://en.wikipedia.org/wiki/The_Godfather" data-rel="external">The Godfather</a></td>
+              <td>1972</td>
+              <td>97%</td>
+            </tr>
+            <tr>
+              <td><a href="http://en.wikipedia.org/wiki/Gone_with_the_Wind_(film)" data-rel="external">Gone with the Wind</a></td>
+              <td>1939</td>
+              <td>96%</td>
+            </tr>
+            <tr>
+              <td><a href="http://en.wikipedia.org/wiki/Lawrence_of_Arabia_(film)" data-rel="external">Lawrence of Arabia</a></td>
+              <td>1962</td>
+              <td>94%</td>
+            </tr>
+            <tr>
+              <td><a href="http://en.wikipedia.org/wiki/Dr._Strangelove" data-rel="external">Dr. Strangelove Or How I Learned to Stop Worrying and Love the Bomb</a></td>
+              <td>1964</td>
+              <td>92%</td>
+            </tr>
+            <tr>
+              <td><a href="http://en.wikipedia.org/wiki/The_Graduate" data-rel="external">The Graduate</a></td>
+              <td>1967</td>
+              <td>91%</td>
+            </tr>
+            <tr>
+              <td><a href="http://en.wikipedia.org/wiki/The_Wizard_of_Oz_(1939_film)" data-rel="external">The Wizard of Oz</a></td>
+              <td>1939</td>
+              <td>90%</td>
+            </tr>
+            <tr>
+              <td><a href="http://en.wikipedia.org/wiki/Singin%27_in_the_Rain" data-rel="external">Singin' in the Rain</a></td>
+              <td>1952</td>
+              <td>89%</td>
+            </tr>
+            <tr>
+              <td class="title"><a href="http://en.wikipedia.org/wiki/Inception" data-rel="external">Inception</a></td>
+              <td>2010</td>
+              <td>84%</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <a id="continue" href="revenue.html" data-role="button" data-theme="a" rel="external">Continuar</a>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript">
+      app.initialize();
+    </script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-mobile.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+h1, h2, h3, h4, h5, h6 {
+	text-align: center;
+}
+
+article h3 {
+	text-align: left;
+}
+
+textarea {
+	height: 180px !important;
+}
+
+#continue {
+	margin: 1em auto;
+	width: 10em;
+}
+
+#img_bcm {
+	border-radius: 1em;
+	margin: 5%;
+	width: 90%;
+}
+
+.elements .ui-input-text, .elements a {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.elements .ui-input-text {
+	width: 92% !important;
+}
+
+.info {
+	padding: 1.5%;
+}
+
+.see {
+	display: block;
+}
+
+.vis {
+	display: none;
+}

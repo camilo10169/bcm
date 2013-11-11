@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    <link rel="stylesheet" href="css/jquery-mobile.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Business Canvas Model</title>  </head>
+  <body>
+    <div data-role="page">
+      <div id="menu" data-role="panel" data-position="left" data-display="push">
+        <h2>Menú</h2>
+        <ul data-role="listview">
+          <li><a href="project.html" rel="external">Tipo de proyecto</a></li>
+          <li><a href="proposition.html" rel="external">Propuesta de valor</a></li>
+          <li><a href="segment.html" rel="external">Segmento de clientes</a></li>
+          <li><a href="canvas.html" rel="external">Canvas</a></li>
+          <li><a href="relationship.html" rel="external">Relación con los clientes</a></li>
+          <li><a href="channel.html" rel="external">Canales de distribución</a></li>
+        </ul>
+      </div>
+      
+      <div data-role="header" data-position="fixed">
+        <h1>Propuesta de valor</h1>
+        <a href="#menu">Menú</a>
+      </div>
+      <div data-role="content">
+        <h3>
+          ¿Por qué esa oportunidad?
+          <a class="add_field" href="#" data-role="button" data-icon="plus" data-iconpos="notext" data-theme="a" data-inline="true" data-opt="0">Adicionar</a>
+        </h3>
+        <div id="element-0" class="elements">
+          <!-- <div id="content-0">
+            <input class="txt-field" data-section="proposition" id="txt-0" type="text">
+            <a id="add-0" class="save_opt" href="#" data-role="button" data-icon="check" data-iconpos="notext" data-theme="a">Confirmar</a>
+            <a id="del-0" class="del_opt" href="#" data-role="button" data-icon="delete" data-iconpos="notext" data-theme="a">Eliminar</a>
+          </div> -->
+        </div>
+
+        <h3>
+          ¿Cómo lo haría?
+          <a class="add_field" href="#" data-role="button" data-icon="plus" data-iconpos="notext" data-theme="a" data-inline="true" data-opt="1">Adicionar</a>
+        </h3>
+        <div id="element-1" class="elements">
+          <!-- <div id="content-20">
+            <input class="txt-field" data-section="proposition" id="txt-20" type="text">
+            <a id="add-20" class="save_opt" href="#" data-role="button" data-icon="check" data-iconpos="notext" data-theme="a">Confirmar</a>
+            <a id="del-20" class="del_opt" href="#" data-role="button" data-icon="delete" data-iconpos="notext" data-theme="a">Eliminar</a>
+          </div> -->
+        </div>
+
+        <h3>
+          ¿Qué es?
+          <a class="add_field" href="#" data-role="button" data-icon="plus" data-iconpos="notext" data-theme="a" data-inline="true" data-opt="2">Adicionar</a>
+        </h3>
+        <div id="element-2" class="elements">
+          <!-- <div id="content-40">
+            <input class="txt-field" data-section="proposition" id="txt-40" type="text">
+            <a id="add-40" class="save_opt" href="#" data-role="button" data-icon="check" data-iconpos="notext" data-theme="a">Confirmar</a>
+            <a id="del-40" class="del_opt" href="#" data-role="button" data-icon="delete" data-iconpos="notext" data-theme="a">Eliminar</a>
+          </div> -->
+        </div>
+
+        <a id="continue" href="segment.html" data-role="button" data-theme="a" rel="external">Continuar</a>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript">
+      app.initialize();
+    </script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-mobile.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/form.js"></script>
+  </body>
+</html>
