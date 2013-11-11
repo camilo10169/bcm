@@ -10,6 +10,13 @@ textarea {
 	height: 180px !important;
 }
 
+ul {
+	list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+   text-indent: -1em;
+}
+
 #continue {
 	margin: 1em auto;
 	width: 10em;
@@ -32,12 +39,4 @@ textarea {
 
 .info {
 	padding: 1.5%;
-}
-
-.see {
-	display: block;
-}
-
-.vis {
-	display: none;
 }
