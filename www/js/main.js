@@ -7,15 +7,6 @@ $(document).on("pageinit", function() {
 	var section = location.pathname.split('/').pop().replace('.html', '');
 	var ele;
 
-	$('.type_pro').on('click', function() {
-		var opt = parseInt($(this).attr('data-opt'));
-		if (opt == 1) {
-			localStorage.type_pro = 'new';
-		} else {
-			localStorage.type_pro = 'grow';
-		}
-	});
-
 	$('.add_field').click(function() {
 		var opt = parseInt($(this).attr('data-opt'));
 		if (opt == 0) {
